@@ -25,4 +25,4 @@ int main(void)
 		print("%d is negative\n", n);
 	}
 	return (0)
-};
+}
