@@ -8,10 +8,14 @@
 int main(void)
 {
 	char lowercase;
-	for (lowercase = 'a'; lowercase = 'z'; lowercase++);
-	{
+
+	lowercase = 'a';
+	while
+		(lowercase <= 'z')
+		{
 		putchar(lowercase);
-	}
+		lowercase++;
+		}
 	putchar('\n');
 	return (0);
 }
