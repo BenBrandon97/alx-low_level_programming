@@ -5,24 +5,17 @@
  */
 int main(void)
 {
-	char b;
+	int num;
+	char k;
 
-	int c;
-
-	b = 'a';
-	c = 0;
-	while
-		(c < 16)
-		{
-			putchar(c + '0');
-			c++;
-		}
-	while
-		(c <= 'f')
-		{
-			putchar(b);
-			b++;
-		}
+	for (num = 0; num < 10; num++)
+	{
+		putchar((num % 10) + '0');
+	}
+	for (k = 'a'; k <= 'f'; k++)
+	{
+		putchar(k);
+	}
 	putchar('\n');
 	return (0);
 }
