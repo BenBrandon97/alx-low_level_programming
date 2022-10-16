@@ -10,6 +10,7 @@ int main(void)
 	int c;
 
 	b = 'a';
+	c = 0;
 	while
 		(c < 10)
 		{
