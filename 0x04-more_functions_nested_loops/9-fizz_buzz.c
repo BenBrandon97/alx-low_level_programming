@@ -7,10 +7,11 @@ int main(void)
 {
 	int k;
 
-	printf("l");
+	printf("1");
 	for (k = 2; k <= 100; k++)
 	{
 		printf(" ");
+
 		if (k % 3 == 0)
 			printf("Fizz");
 
