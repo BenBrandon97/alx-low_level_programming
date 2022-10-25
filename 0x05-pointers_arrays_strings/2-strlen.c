@@ -19,7 +19,7 @@ int _strlen(char *s)
 	return (len);
 }
 
-	/*for (*s != '\0'; len++)*/
+	/*for (; *s != '\0'; len++)*/
 	 /*{*/
 	 /*s++;*/
 	 /*}*/
