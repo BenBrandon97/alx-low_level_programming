@@ -16,7 +16,7 @@ int main(void)
 			{
 				putchar(dgt1);
 				putchar(dgt2);
-				
+
 				if (dgt1 != '8' || (dgt1 == '8' && dgt1 != '9'))
 				{
 					putchar(',');
@@ -26,5 +26,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
