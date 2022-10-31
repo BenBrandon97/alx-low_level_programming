@@ -6,16 +6,23 @@
  */
 int main(void)
 {
-	int dgt;
+	int dgt1, digit2;
 
-	for (dgt = '0'; dgt <= '9'; dgt++)
+	for (dgt1 = '0'; dgt1 <= '9'; dgt1++)
 	{
-		putchar(dgt);
-
-		if (dgt != '9')
+		for (dgt2 = '0'; dgt2 <= '9'; dgt2++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (dgt1 < dgt2)
+			{
+				putchar(dgt1);
+				putchar(dgt2);
+				
+				if (dgt1 != '8' || dgt1 == '8' && dgt1 != '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
