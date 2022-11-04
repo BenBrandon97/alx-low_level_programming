@@ -14,11 +14,12 @@ int _sqrt_recursion(int n)
 		return (-1);
 	return (actual_sqrt_recursion(n, 0));
 }
- /**
-  * actual_sqrt_recursion - recurses to find natural sqroot
-  * @n: number to calculate sq root
-  * @i: iterate number
-  */
+/**
+ * actual_sqrt_recursion - recurses
+ * @i: iterator
+ * @n: number to be found sq root
+ * Return: integer value
+ */
 int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
