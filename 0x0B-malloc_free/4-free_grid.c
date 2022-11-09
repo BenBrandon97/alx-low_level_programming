@@ -5,7 +5,7 @@
   * free_grid - frees toe dimesional grid
   * @grid: grid to be frred
   * @height: grid height
-  * Return:void 
+  * Return:void
   */
 void free_grid(int **grid, int height)
 {
