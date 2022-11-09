@@ -7,6 +7,7 @@
   *
   * Return: the dublicated string
   */
+
 char *_strdup(char *str)
 {
 	int a = 0, i = 1;
