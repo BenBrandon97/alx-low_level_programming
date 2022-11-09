@@ -6,8 +6,9 @@
   * @width: grid width
   * @height: grid height
   *
-  * Return:
+  * Return: integer a:
   */
+
 int **alloc_grid(int width, int height)
 {
 	int i, j, k, l;
