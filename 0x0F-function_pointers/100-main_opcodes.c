@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <udis86.h>
-
 /**
-  * main - ...
-  * @argc: ...
-  * @argv: ...
-  *
-  * Return: ...
+  * main - entry point
+  * @argc: argument count
+  * @argv: argument vector
+  * Return: 0
   */
 int main(int argc, char *argv[])
 {
