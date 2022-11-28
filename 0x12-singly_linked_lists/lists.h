@@ -10,6 +10,7 @@
  * Description: singly linked list node structure
  * for this project
  */
+
 typedef struct list_s
 {
 	char *str;
