@@ -1,0 +1,1 @@
+This is the readme for singly linked lists. Here we see how stored data can be linked in their nodes. See the individual files.

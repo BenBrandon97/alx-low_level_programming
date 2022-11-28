@@ -1,1 +1,1 @@
-This is my low level programming readme file.
+This is my low level programming readme file. It contains all the files needed for low level programming in C.
