@@ -7,7 +7,6 @@
   *
   * Return: Nothing
   */
- 
 void free_list(list_t *head)
 {
 	list_t *temp;
@@ -19,6 +18,5 @@ void free_list(list_t *head)
 		free(temp->str);
 		free(temp);
 	}
-
 	free(head);
 }
