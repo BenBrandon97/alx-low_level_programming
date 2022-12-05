@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "lists.h"
+#include "main.h"
 
 /**
   * flip_bits - ...
