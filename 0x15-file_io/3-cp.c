@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
   * main - Entry point
@@ -21,11 +21,11 @@ int main(int argc, char **argv)
 }
 
 /**
-  * copy_file - ...
-  * @src: ...
-  * @dest: ...
+  * copy_file - copies a file
+  * @src: source file
+  * @dest: destination
   *
-  * Return: ...
+  * Return: copied file
   */
 void copy_file(const char *src, const char *dest)
 {
