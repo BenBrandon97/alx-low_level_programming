@@ -1,11 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-  * create_file - ...
-  * @filename: ...
-  * @text_content: ...
+  * create_file -Function that Creates a file
+  * @filename: name of file
+  * @text_content: contents
   *
-  * Return: ...
+  * Return: the file
   */
 int create_file(const char *filename, char *text_content)
 {
